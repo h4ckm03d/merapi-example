@@ -9,6 +9,6 @@ export default class FirstComponent extends Component {
   }
   start(args: string[]) {
     this.initialize();
-    this.logger.log(`${this.config('greeting')} ${args[2]}`);
+    this.logger.debug(`${this.config('greeting')} ${args[2]}`);
   }
 }
