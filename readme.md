@@ -1,4 +1,4 @@
 # Merapi Example
 
-- [Hello world](https://github.com/h4ckm03d/merapi-example/tree/master/hello%20world)
-- [Custom Logger](https://github.com/h4ckm03d/merapi-example/tree/master/custom%20logger)
+- [Hello world](https://github.com/h4ckm03d/merapi-example/tree/master/hello-world)
+- [Hello world with Loggly](https://github.com/h4ckm03d/merapi-example/tree/master/hello-world-loggly)
