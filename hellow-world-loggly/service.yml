@@ -1,0 +1,37 @@
+schema: kata.ai/schema/merapi/1.0
+
+plugins:
+    - loggly
+    - service
+
+merapi:
+    logging:
+        level: info
+
+        loggly:
+            level: debug
+            buffer:
+                length: 50
+                timeout: 5000
+            config:
+                subdomain: yesbossnow
+                token: de7bf9fe-af47-413d-a002-a4498280b601
+            customTags:
+                - diaenne-platform
+                - experiment
+            consoleOnly: true
+            os:
+                interval: 5000
+                cpu: false
+                mem: true
+                loadavg: true
+                uptime: false
+
+name: lutfi
+greeting: Hello
+
+components:
+    firstComponent: FirstComponent
+
+main: firstComponent
+

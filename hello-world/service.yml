@@ -1,0 +1,8 @@
+schema: kata.ai/schema/merapi/1.0
+name: lutfi
+greeting: Hello
+
+components:
+    firstComponent: FirstComponent
+
+main: firstComponent
