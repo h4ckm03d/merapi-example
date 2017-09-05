@@ -1,0 +1,17 @@
+schema: kata.ai/schema/merapi/1.0
+plugins:
+    - express
+    - service
+
+name: express_sample
+components:
+    com: Com
+    app: 
+        type: express
+
+app:
+    routes:
+        "GET /": "com.get"
+    port: 8090
+
+main: com
