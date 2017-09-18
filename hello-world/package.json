@@ -1,12 +1,13 @@
 {
-  "name": "merapi-project",
+  "name": "hello-world",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
+  "description": "Hello world example",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Moch. Lutfi",
   "license": "ISC",
   "dependencies": {
     "js-yaml": "^3.9.1",
