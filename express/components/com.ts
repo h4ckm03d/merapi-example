@@ -6,4 +6,5 @@ export default class Com extends Component {
   constructor() { super(); }
   start() { }
   get(req: Request, res: Response) { res.send({"success":"Hore"}); }
+  getCustomer(req: Request, res: Response) { res.send({"customer":"Hore"}); }
 }

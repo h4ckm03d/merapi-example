@@ -14,4 +14,13 @@ app:
         "GET /": "com.get"
     port: 8090
 
+service:
+    api:
+        v1:
+            "getCustomer": "com.getCustomer"
+        v2:
+            "getCustomer": "com.getCustomer"
+
+    port: 5025
+
 main: com
