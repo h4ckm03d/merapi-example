@@ -1,5 +1,5 @@
 {
-  "name": "hello-world-loggly",
+  "name": "Merapi Example",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -9,7 +9,7 @@
     "hello-world-loggly": "tsc --p hello-world-loggly/tsconfig.json && node hello-world-loggly/start.js",
     "express": "tsc --p express/tsconfig.json && node express/start.js"
   },
-  "author": "Moch. Lutfi",
+  "author": "Moch. Lutfi (kapten.lufi@gmail.com)",
   "license": "ISC",
   "dependencies": {
     "js-yaml": "^3.9.1",
