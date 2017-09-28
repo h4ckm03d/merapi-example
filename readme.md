@@ -2,7 +2,7 @@
 
 ## What is [Merapi](https://github.com/kata-ai/merapi)? 
 
-  Pluginable Depencency Injection Container for Node.js
+  Pluginable Dependency Injection Container for Node.js
 
 ## Prerequisites
 - Nodejs
